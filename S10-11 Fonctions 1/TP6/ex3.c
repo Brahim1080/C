@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include <math.h>
+
 
 /*
 PRE : n >= 2
@@ -13,6 +13,7 @@ int* prime_numbers (int n, int* sz);
 
 /*
 PRE : n >= 2
+RES : true si le nombre est un nombre premier , false si l'inverse 
 */
 bool is_prime_number(int x);
 
